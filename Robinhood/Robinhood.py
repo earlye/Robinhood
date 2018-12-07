@@ -17,8 +17,8 @@ import six
 import dateutil
 
 #Application-specific imports
-import exceptions as RH_exception
-import endpoints
+import Robinhood.exceptions as RH_exception
+import Robinhood.endpoints as endpoints
 
 class Bounds(Enum):
     """Enum for bounds in `historicals` endpoint """
